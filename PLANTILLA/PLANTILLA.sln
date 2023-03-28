@@ -3,9 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Clients", "01. Clients", "{C23BB0A1-49BD-4DB9-98E2-462012E169E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. Api.Gateways", "02. Api.Gateways", "{B702F9BE-BCF9-4345-A12F-A1E68D6CEDF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. Services", "03. Services", "{AE82E085-D767-43F1-9A76-08D6369DF040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. Inventory", "01. Inventory", "{9E080EEB-7628-405D-B357-B24CEA16ACBB}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9E080EEB-7628-405D-B357-B24CEA16ACBB} = {AE82E085-D767-43F1-9A76-08D6369DF040}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EAEC1AA-ABEF-49B9-A143-B647CFCDA4E6}
